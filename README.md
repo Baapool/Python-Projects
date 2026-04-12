@@ -15,10 +15,10 @@ A two‑player console game with win detection, board display, and replay suppor
 Converts a numeric date (year, month, day) into a readable format with the correct ordinal ending.
 
 4. Rock‑Paper‑Scissors:
-A simple RPS game where the player chooses Rock, Paper, or Scissors and the computer randomly selects one.
+A simple game where the player chooses Rock, Paper, or Scissors and the computer randomly selects one.
 
 5. Rock‑Paper‑Scissors Enhanced Version:
-A visual version of RPS using ASCII art for each hand sign.
+A visual version of rock, papper and scissors using ASCII art for each hand sign.
 
 6. Number Guess Challenge:
 A guessing game where the player tries to find a random number between 1 and 100 while their score decreases with each wrong guess.
@@ -35,7 +35,7 @@ The program determines the highest bidder.
 Formats first and last names by capitalizing them properly.
 
 10. War Card Battle:
-A simulation of the classic card game “War,” using classes for Cards, Deck, and Players.
+A simulation of the classic card game “War” using classes for Cards, Deck, and Players.
 
 #### I have also developed several additional Python projects; however, I believe the ones mentioned are the most significant.
 
