@@ -4,7 +4,7 @@ Hi there, this is a collection of my Python programs I built while learning core
 Each project focuses on a specific skill such as functions, loops, conditionals, dictionaries, classes, and user interaction. Hope you like it :-)
 
 ## Projects Included
-###Caesar Cipher:### A text encryption tool that shifts letters in the alphabet. Supports encoding and decoding with any shift value.
+Caesar Cipher: A text encryption tool that shifts letters in the alphabet. Supports encoding and decoding with any shift value.
 
 Tic‑Tac‑Toe: A two‑player console game with win detection, board display, and replay support.
 
