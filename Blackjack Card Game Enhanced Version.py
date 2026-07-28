@@ -1,5 +1,5 @@
 """
-A classic BlackJack (21) card game. The player competes against the dealer to
+A classic BlackJack or 21 card game. The player competes against the dealer to
 get a hand value as close to 21 as possible without going over. It includes
 features like betting, hit/stand logic, and automated dealer play.
 """
