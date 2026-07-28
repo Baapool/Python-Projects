@@ -35,7 +35,7 @@ A simulation of the classic card game “War” using classes for Cards, Deck, a
 ## Purpose
 These projects helped me practice Python basics, Functions and loops, Dictionaries and lists, Classes and object‑oriented programming, User input handling, Game logic and Clean code structure.
 
-## Technologies Used
+## Tools Used
 Python 3 and some Libraries.
 
 ## Learning Goals
