@@ -10,25 +10,19 @@ Each project focuses on a specific skill such as functions, loops, conditionals,
 
 3. Date Formatter: Converts a numeric date (year, month, day) into a readable format with the correct ordinal ending.
 
-4. Rock, paper and scissors: A simple game where the player chooses Rock, Paper, or Scissors and the computer randomly selects one to declare a winner based on the rules.
+4. Rock‑Paper‑Scissors Enhanced Version: A visual version of Rock, paper and scissors using ASCII art for each hand sign.
 
-5. Rock‑Paper‑Scissors Enhanced Version:
-A visual version of Rock, paper and scissors using ASCII art for each hand sign.
+5. Number Guessing Challenge Enhanced Version: An advanced number-guessing game featuring difficulty levels. The player receives hints after every guess until the correct number is guessed.
 
-6. Number Guess Challenge:
-A guessing game where the player tries to guess a random number between 1 and 100 while their score decreases with each wrong guess.
+6. PyPassword Generator Enhanced Version: Generates a randomized password using a user‑specified number of letters, symbols, and numbers. The characters are selected randomly, combined, shuffled, and returned as a final password.
 
-7. Interest & Finance Calculator:
-Calculates capital, interest rate, interest amount, or time based on user input. Supports yearly and month‑based interest.
+7. Blackjack Card Game: A classic BlackJack card game where the player competes against an automated dealer to reach a hand value of 21 without busting. It features full betting capabilities and standard hit or stand gameplay mechanics.
 
-8. Blind Auction:
-A silent bidding program where each participant enters a name and bid afterwards, The program determines the highest bidder.
+8. Interest & Finance Calculator: Calculates capital, interest rate, interest amount, or time based on user input. Supports yearly and month‑based interest.
 
-9. Name Formatter:
-Formats first and last names by capitalizing them properly.
+9. Blind Auction: A silent bidding program where each participant enters a name and bid afterwards, The program determines the highest bidder.
 
-10. War Card Battle:
-A simulation of the classic card game “War” using classes for Cards, Deck, and Players.
+10. Name Formatter: Formats first and last names by capitalizing them properly.
 
 #### I have also developed several additional Python projects; However, The ones mentioned above are the most significant.
 
