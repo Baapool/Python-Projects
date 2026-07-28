@@ -1,4 +1,4 @@
-# Hamdaan's Projects
+# Hamdaan's Python Projects
 
 Hi there, this is a collection of my Python programs I built while learning core programming concepts.
 Each project focuses on a specific skill such as functions, loops, conditionals, dictionaries, classes, and user interaction. Hope you like it :-)
