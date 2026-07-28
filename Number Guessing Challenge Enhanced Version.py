@@ -1,3 +1,8 @@
+"""
+An enhanced number-guessing game where the player gets to choose their preferred difficulty level.
+The user is also given hints for every guess they make until they find the correct number.
+"""
+
 # Import required Libraries.
 import random
 
