@@ -1,50 +1,82 @@
 """
-A simple Rock-Paper-Scissors game where the player chooses an option,
-the computer randomly selects one, and the program determines the winner.
-Includes a loop to allow playing multiple rounds.
+Rock, Paper and Scissors game using ASCII art. The player selects 0 for
+rock, 1 for papper and 2 for scissors. The computer randomly chooses,
+and the program displays the artwork and determines the winner.
 """
+
+# ASCII Art for the game choices
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
 
 import random
 
-# Function to handle user input and computer's random choice
-def get_choices():
-  player_choice = input("Enter a choice [Rock, Paper, Scissors]: ")
-  options = ["Rock", "Paper", "Scissors"]
-  computer_choice = random.choice(options)
-  choices = {"player": player_choice, "Computer": computer_choice}
-  return choices
-
-# Function to compare choices and determine the winner
-def check_win(player, Computer):
-  print(f"You chose {player}, Computer chose {Computer}")
-  if player == Computer:
-    return "It's a tie!"
-  elif player == "Rock":
-    if Computer == "Scissors":
-      return "Rock smashes Scissors! You won!"
-    else:
-      return "Paper covers Rock! You lose."
-  elif player == "Paper":
-    if Computer == "Rock":
-      return "Paper covers Rock! You won!"
-    else:
-      return "Scissors cuts Paper! You lose."
-  elif player == "Scissors":
-    if Computer == "Paper":
-      return "Scissors cuts Paper! You won!"
-    else:
-      return "Rock smashes Scissors! You lose."
+# List to store the ASCII art for easy indexing
+list_of_choices = [rock, paper, scissors]
 
 # Main game loop to allow multiple rounds
 while True:
-    # Get choices from user and computer
-    choices = get_choices()
-    # Determine the result of the round
-    result = check_win(choices["player"], choices["Computer"])
-    print(result)
+    # Ask the user for an input and convert to integer
+    user_choice = int(input("What do you choose? Type 0 for Rock, 1 for paper and 2 for Scissors.\n"))
+
+    # Validate user input and display their choice
+    if 0 <= user_choice <= 2:
+        print("You chose:")
+        print(list_of_choices[user_choice])
+
+        # Computer makes a random choice between 0 and 2
+        computer_choice = random.randint(0, 2)
+        print("Computer chose:")
+        print(list_of_choices[computer_choice])
+
+        # Game Logic: Checking who won the round
+        # Winning conditions for the user
+        if user_choice == 1 and computer_choice == 0:
+            print("Paper beats Rock, You win!")
+        elif user_choice == 0 and computer_choice == 2:
+            print("Rock beats Scissors, You win!")
+        elif user_choice == 2 and computer_choice == 1:
+            print("Scissors beats Paper, You win!")
+
+        # Losing conditions for the user
+        elif user_choice == 2 and computer_choice == 0:
+            print("Rock beats Scissors, You lose.")
+        elif user_choice == 1 and computer_choice == 2:
+            print("Scissors beats Paper, You lose.")
+        elif user_choice == 0 and computer_choice == 1:
+            print("Paper beats Rock, You lose.")
+
+        # Draw conditions
+        else:
+            print("It's a draw.")
+    else:
+        print("Invalid choice. Please try again with 0, 1, or 2.")
 
     # Ask if the player wants to continue
     play_again = input("Do you want to play another round? (yes/no): ").lower()
     if play_again != 'yes':
-        print("Thanks for playing!")
+        print("Thanks for playing the enhanced version!")
         break

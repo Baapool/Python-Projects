@@ -4,7 +4,7 @@ the correct month name and ordinal ending, such as 'April 21st, 2026'.
 """
 
 # List of month names for conversion from integer
-months = ["January", "Feburary", "March", "April", "May", "June",
+months = ["January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 
 # Generate a list of ordinal suffixes (st, nd, rd, th) for days 1-31

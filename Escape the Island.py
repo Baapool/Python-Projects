@@ -90,4 +90,4 @@ if q1 == "Left":
         else: print("The food was poisonous. Game Over.")
     else: print("A panther found your hiding spot. Game Over.")
 else:
-    print("You fell off the cliff. Game Over.")"
+    print("You fell off the cliff. Game Over.")

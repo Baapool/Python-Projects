@@ -13,7 +13,7 @@ calculate_choice = input("What would you like to calculate (Capital, Interest Ra
 if calculate_choice == "capital":
     interest_amount = float(input("How much is the yearly interest amount: "))
     interest_rate_percent = float(input("What is the interest rate in percent: "))
-    if interest_rate_percent == 0:
+    if interest_rate_percent <= 0:
         print("The interest rate cannot be zero when calculating capital.")
     else:
         capital = interest_amount / (interest_rate_percent / 100)
@@ -23,7 +23,7 @@ if calculate_choice == "capital":
 elif calculate_choice == "interest rate":
     principal_amount_2 = float(input("How much is the capital: "))
     interest_amount_2 = float(input("How much is the yearly interest amount: "))
-    if principal_amount_2 == 0:
+    if principal_amount_2 <= 0:
         print("Capital cannot be zero when calculating the interest rate.")
     else:
         interest_rate = (interest_amount_2 / principal_amount_2) * 100

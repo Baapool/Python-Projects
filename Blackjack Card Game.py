@@ -28,7 +28,7 @@ def display_status(player_cards, dealer_cards, hide_dealer_hidden_card=True):
                    f"Current Score: {sum(player_cards)}\n"
                    f"\n")
 
-    # Checks wether if dealer has blackjack before printing.
+    # Checks if the dealer has blackjack before printing.
     if sum(dealer_cards) == 21:
         dealer_text = (f"Dealer's cards: {dealer_cards}\n"
                        f"Dealer's score: {sum(dealer_cards)}\n"
